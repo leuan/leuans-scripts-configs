@@ -1,5 +1,10 @@
-# ZSH Config
-setopt auto-cd
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+setopt autocd extendedglob
+bindkey -e
+# End of lines configured by zsh-newuser-install
 
 neofetch --ascii /home/leon/.config/neofetch/ascii.txt | lolcat -F 0.04 -S 30
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
