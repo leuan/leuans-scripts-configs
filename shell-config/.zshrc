@@ -1,3 +1,6 @@
+# ZSH Config
+setopt auto-cd
+
 neofetch --ascii /home/leon/.config/neofetch/ascii.txt | lolcat -F 0.04 -S 30
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -35,11 +38,6 @@ export NVM_DIR="$HOME/.nvm"
 
 ## podman
 alias docker="podman"
-
-## docker compose
-alias up="docker compose up"
-alias down="docker compose down"
-alias build="docker compose build"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
